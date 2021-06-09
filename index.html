@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site simples</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULAR IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" id="ano" min="0" value="2012">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="readsex" id="mas" checked class='sex'>
+                <label for="mes">Maculino</label>
+                <input type="radio" name="readsex" id="fem" class="sex">
+                <label for="mes">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div>
+            <p id="res">Resultado aqui...</p>
+            <div id="imga">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Allan Fenelon</p>
+    </footer>
+    
+     <script src="sc.js"></script>
+    
+</body>
+</html>

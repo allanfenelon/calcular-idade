@@ -1,0 +1,49 @@
+body{
+    background: rgb(52, 124, 218);
+    font: normal 15pt Arial;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+
+}
+section{
+    background: rgb(241, 237, 237);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+}
+img#imagem{
+    border-radius: 500px;
+    
+    
+}
+div{
+    text-align: center;
+    padding: 0.001px;
+}
+
+div#imga{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-size: cover;
+    background-repeat: auto;
+    background-position: auto;
+    margin: auto;
+}
+input#ano{
+    border-radius: 5px;
+    font: italic 10pt Arial;
+    background-color: rgba(4, 107, 107, 0.349);
+    color: black;
+}
+input.sex{
+    background-color: rgba(4, 107, 107, 0.349);
+}
